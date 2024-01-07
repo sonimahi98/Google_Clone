@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(245, 234, 230);
+    min-height: 100vh;
+    width:100vw;
+}
+#top-parent{
+    display: flex;
+    height: 4rem;
+    width: 100vw;
+    /* background-color: blue; */
+}
+
+#top-left{
+    width: 50vw;
+    height: 4rem;
+    /* background-color: yellow; */
+}
+
+#top-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50vw;
+    height: 4rem;
+    /* background-color: green; */
+    font-size: 1 rem;
+
+}
+#top-right> div{
+    height: 3rem;
+    width: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#profile-img-wrapper{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#profile-img{
+    height: 2.5rem; 
+    width: 2.5rem;
+    background: url("DSC_1128.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+}
+#logo-search-box{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.logo-img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+}
+
+.search{
+    width: 600px;
+    line-height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;    
+    padding:10px 20px;
+    border-radius: 40px;
+    height: 40px;
+    border-color:rgb(207, 204, 209);
+    font-size: 1.4 rem;
+    display:flex;
+}
+
+#Google-logo{
+    display: flex;
+}
+#footer{
+    display: flex;
+    height: 34vh;
+    margin-top: 2rem;
+}
+#bottom-left{
+    height: 34vh;
+    width: 30vw;
+}
+#bottom-center{
+    height: 34vh;
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+}
+
+#bottom-center>div>div{
+    height: 6rem;
+    width: 6rem;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    border-radius: 5px;
+}
+#bottom-center>div>div>div{
+    margin-bottom: 0.6rem;
+}
+
+.child-div{
+    height: 40px;
+    width: 40px;
+    border-radius: 70%;
+}
+
+#bottom-right{
+    direction: rtl;
+    display: flex;
+    align-items: flex-end;
+    height: 34vh;
+    width: 30vw;
+}
+#customized-button{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: transparent;
+    /* margin-right: 1rem; */
+}
+
+    
+.overlay{
+    height: 100%;
+    width: 100%;
+}
+.overlay:hover{
+    background-color: rgba(0,0,0,0.1);
+}
